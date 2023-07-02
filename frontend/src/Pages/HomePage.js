@@ -1,13 +1,15 @@
 import React from "react";
 import { useLocation   } from 'react-router-dom'
-
+import Hero from "../Components/Hero";
 
 const HomePage=()=> {
   const location = useLocation();
     return (
-      <div className="App">
-        
-  Home Page    </div>
+   
+      <div id="HomePage">
+      <Hero/>
+      </div>
+      
     );
   }
 
