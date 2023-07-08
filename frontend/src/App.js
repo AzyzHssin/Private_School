@@ -3,9 +3,10 @@ import HomePage from './Pages/HomePage';
 import PageNotFound from './Pages/404/PageNotFound';
 import { Route, Routes, Navigate,useLocation   } from 'react-router-dom'
 import { BrowserRouter as Router} from "react-router-dom";
+import React from 'react'
+
 
 function App() {
-
   return (
     <div className="App">
     <Router>
@@ -18,7 +19,10 @@ function App() {
   
 
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
+
+
+/*  */
