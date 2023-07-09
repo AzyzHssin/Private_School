@@ -26,3 +26,8 @@ export default App
 
 
 /*  */
+function x (num){
+  while(num){
+    
+  }
+}

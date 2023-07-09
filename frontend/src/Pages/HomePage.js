@@ -26,260 +26,91 @@ const HomePage=()=> {
   </div>
 </div>
 
-<div className="fables-forth-background-color fables-top-header-signin">
-  <div className="container">
-    <div className="row" id="top-row">
-      <div className="col-12 col-sm-2 col-lg-5">
-        <div className="dropdown">
-          <button className="btn btn-secondary dropdown-toggle border-0 bg-transparent font-13 lang-dropdown-btn pl-0" type="button" id="dropdownLangButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            language
-          </button>
-          <div className="dropdown-menu p-0 fables-forth-background-color rounded-0 m-0 border-0 lang-dropdown" aria-labelledby="dropdownLangButton">
-            <a className="dropdown-item white-color font-13 fables-second-hover-color" href="#">
-              <img src="assets/custom/images/england.png" alt="england flag" className="mr-1" /> English</a>
-            <a className="dropdown-item white-color font-13 fables-second-hover-color" href="#">
-              <img src="assets/custom/images/France.png" alt="england flag" className="mr-1" /> French</a> 
-          </div>
-        </div>
-      </div>
-      <div className="col-12 col-sm-5 col-lg-4 text-right">
-        <p className="fables-third-text-color font-13"><span className="fables-iconphone" /> Phone :  (888) 6000 6000 - (888) 6000 6000</p>
-      </div>
-      <div className="col-12 col-sm-5 col-lg-3 text-right">
-        <p className="fables-third-text-color font-13"><span className="fables-iconemail" /> Email: Design@domain.com</p>
-      </div>
-    </div>
-  </div>
-</div>
 
 
-
-<div className="fables-navigation fables-main-background-color py-3 py-lg-0">
+{/* Start Fables Navigation */}
+<div className="fables-transparent py-3 py-lg-0">
   <div className="container">
     <div className="row">
-      <div className="col-12 col-md-10 col-lg-9 pr-md-0">                       
+      <div className="col-12 col-md-10 pr-md-0">                       
         <nav className="navbar navbar-expand-md btco-hover-menu py-lg-2">
-          <a className="navbar-brand pl-0" href="index.html"><img src="assets/custom/images/fables-logo.png" alt="Fables Template" className="fables-logo" /></a>
+         
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#fablesNavDropdown" aria-controls="fablesNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span className="fables-iconmenu-icon text-white font-16" />
           </button>
           <div className="collapse navbar-collapse" id="fablesNavDropdown"> 
+          <div className="logoContainer">
+          <a className="navbar-brand fables-logo-brand pl-10" href="index.html"><img src="assets/custom/images/LOGO.JPG" id="logoImage" alt="Fables Template" /></a>
+          </div>
             <ul className="navbar-nav mx-auto fables-nav">   
+          
               <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="#" id="sub-nav1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a className="nav-link" href="#" id="sub-nav1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Home
                 </a>
-                <ul className="dropdown-menu" aria-labelledby="sub-nav1">
-                  <li><a className="dropdown-item" href="home1.html">Home 1</a></li>
-                  <li><a className="dropdown-item" href="home2.html">Home 2</a></li>
-                  <li><a className="dropdown-item" href="home3.html">Home 3</a></li>
-                  <li><a className="dropdown-item" href="home4.html">Home 4</a></li>
-                </ul>
+                
               </li>
               <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="#" id="sub-nav2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a className="nav-link" href="#" id="sub-nav2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Features
                 </a>
-                <ul className="dropdown-menu" aria-labelledby="sub-nav2">
-                  <li><a className="dropdown-item dropdown-toggle" href="#">Headers</a>
-                    <ul className="dropdown-menu">  
-                      <li><a className="dropdown-item dropdown-toggle" href="#">Header 1</a>
-                        <ul className="dropdown-menu">
-                          <li><a className="dropdown-item" href="header1-transparent.html">Header 1 Transparent</a></li>
-                          <li><a className="dropdown-item" href="header1-light.html">Header 1 Light</a></li>
-                          <li><a className="dropdown-item" href="header1-dark.html">Header 1 Dark</a></li><li><a className="dropdown-item" href="header-megamenu.html">Header Mega menu</a></li>
-                        </ul>
-                      </li>
-                      <li><a className="dropdown-item dropdown-toggle" href="#">Header 2</a>
-                        <ul className="dropdown-menu">
-                          <li><a className="dropdown-item" href="header2-transparent.html">Header 2 Transparent</a></li>
-                          <li><a className="dropdown-item" href="header2-light.html">Header 2 Light</a></li>
-                          <li><a className="dropdown-item" href="header2-dark.html">Header 2 Dark</a></li>
-                        </ul>
-                      </li>
-                      <li><a className="dropdown-item dropdown-toggle" href="#">Header 3</a>
-                        <ul className="dropdown-menu">
-                          <li><a className="dropdown-item" href="header3-transparent.html">Header 3 Transparent</a></li>
-                          <li><a className="dropdown-item" href="header3-light.html">Header 3 Light</a></li>
-                          <li><a className="dropdown-item" href="header3-dark.html">Header 3 Dark</a></li>
-                        </ul>
-                      </li>
-                      <li><a className="dropdown-item dropdown-toggle" href="#">Header 4</a>
-                        <ul className="dropdown-menu">
-                          <li><a className="dropdown-item" href="header4-transparent.html">Header 4 Transparent</a></li>
-                          <li><a className="dropdown-item" href="header4-light.html">Header 4 Light</a></li>
-                          <li><a className="dropdown-item" href="header4-dark.html">Header 4 Dark</a></li>
-                        </ul>
-                      </li>
-                      <li><a className="dropdown-item dropdown-toggle" href="#">Header 5</a>
-                        <ul className="dropdown-menu">
-                          <li><a className="dropdown-item" href="header5-transparent.html">Header 5 Transparent</a></li>
-                          <li><a className="dropdown-item" href="header5-light.html">Header 5 Light</a></li>
-                          <li><a className="dropdown-item" href="header5-dark.html">Header 5 Dark</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li><a className="dropdown-item dropdown-toggle" href="#">Footers</a>
-                    <ul className="dropdown-menu">  
-                      <li><a className="dropdown-item dropdown-toggle" href="#">Footer 1</a>
-                        <ul className="dropdown-menu">
-                          <li><a className="dropdown-item" href="footer1-bg-img.html">Footer 1 Transparent</a></li>
-                          <li><a className="dropdown-item" href="Footer1-light.html">Footer 1 Light</a></li>
-                          <li><a className="dropdown-item" href="Footer1-dark.html">Footer 1 Dark</a></li>
-                        </ul>
-                      </li>
-                      <li><a className="dropdown-item dropdown-toggle" href="#">Footer 2</a>
-                        <ul className="dropdown-menu">
-                          <li><a className="dropdown-item" href="footer2-bg-img.html">Footer 2 Transparent</a></li>
-                          <li><a className="dropdown-item" href="footer2-light.html">Footer 2 Light</a></li>
-                          <li><a className="dropdown-item" href="footer2-dark.html">Footer 2 Dark</a></li>
-                        </ul>
-                      </li>
-                      <li><a className="dropdown-item dropdown-toggle" href="#">Footer 3</a>
-                        <ul className="dropdown-menu">
-                          <li><a className="dropdown-item" href="footer3-bg-img.html">Footer 3 Transparent</a></li>
-                          <li><a className="dropdown-item" href="footer3-light.html">Footer 3 Light</a></li>
-                          <li><a className="dropdown-item" href="footer3-dark.html">Footer 3 Dark</a></li>
-                        </ul>
-                      </li>
-                      <li><a className="dropdown-item dropdown-toggle" href="#">Footer 4</a>
-                        <ul className="dropdown-menu">
-                          <li><a className="dropdown-item" href="footer4-bg-img.html">Footer 4 Transparent</a></li>
-                          <li><a className="dropdown-item" href="footer4-light.html">Footer 4 Light</a></li>
-                          <li><a className="dropdown-item" href="footer4-dark.html">Footer 4 Dark</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li><a className="dropdown-item" href="team.html">Team Members</a></li>
-                  <li><a className="dropdown-item" href="pricing-table.html">Pricing Table</a></li>
-                  <li><a className="dropdown-item" href="testimonials.html">testimonials</a></li>
-                  <li><a className="dropdown-item" href="blog.html">Blog</a></li>
-                  <li><a className="dropdown-item" href="counters.html">Counters</a></li>
-                  <li><a className="dropdown-item" href="image-hover-effects.html">Image Hover Effects</a></li> 
-                </ul>
+               
+              </li>
+           
+              <li className="nav-item dropdown">
+                <a className="nav-link" href="#" id="sub-nav4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Nos Services
+                </a>
+                
               </li>
               <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="#" id="sub-nav3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  About
+                <a className="nav-link" href="#" id="sub-nav5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Offres
                 </a>
-                <ul className="dropdown-menu" aria-labelledby="sub-nav3">
-                  <li><a className="dropdown-item" href="about1.html">About 1</a></li>
-                  <li><a className="dropdown-item" href="about2.html">About 2</a></li>
-                  <li><a className="dropdown-item" href="about3.html">About 3</a></li> 
-                </ul>
-              </li>
-              <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="#" id="sub-nav4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Store
-                </a>
-                <ul className="dropdown-menu" aria-labelledby="sub-nav4">
-                  <li><a className="dropdown-item" href="store_grid_list.html">Product Category </a></li>
-                  <li><a className="dropdown-item" href="store_single.html">Product Single</a></li> 
-                </ul>
-              </li>
-              <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="#" id="sub-nav5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Blog
-                </a>
-                <ul className="dropdown-menu" aria-labelledby="sub-nav5">
-                  <li><a className="dropdown-item" href="blog-cat1.html">Blog Cat 1</a></li>
-                  <li><a className="dropdown-item" href="blog-cat2.html">Blog Cat 2</a></li>
-                  <li><a className="dropdown-item" href="blog-cat3.html">Blog Cat 3</a></li>
-                  <li><a className="dropdown-item" href="blog-cat-masonry.html">Blog Cat Masonry</a></li> 
-                  <li><a className="dropdown-item" href="blog-details1.html">Blog Details 1</a></li> 
-                  <li><a className="dropdown-item" href="blog-details2.html">Blog Details 2</a></li> 
-                  <li><a className="dropdown-item" href="blog-details3.html">Blog Details 3</a></li> 
-                  <li><a className="dropdown-item" href="blog-single-img.html">Blog Single image</a></li> 
-                  <li><a className="dropdown-item" href="blog-single-slider.html">Blog Single Slider</a></li>
-                  <li><a className="dropdown-item" href="blog-single-video.html">Blog Single Video</a></li> 
-                  <li><a className="dropdown-item" href="blog-timeLine.html">Blog Timeline</a></li>
-                </ul>
+               
               </li> 
               <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="#" id="sub-nav6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Pages
+                <a className="nav-link" href="#" id="sub-nav6" data-toggle="dropdown"  aria-expanded="false">
+                  Nos actualités
                 </a>
-                <ul className="dropdown-menu" aria-labelledby="sub-nav6">
-                  <li><a className="dropdown-item" href="404.html">404</a></li>
-                  <li><a className="dropdown-item" href="comming-soon.html">Comming Soon</a></li>
-                  <li><a className="dropdown-item" href="gallery.html">Gallery</a></li>
-                  <li><a className="dropdown-item" href="gallery-filter.html">Gallery Filter</a></li> 
-                  <li><a className="dropdown-item" href="gallery-filter-masonry.html">Gallery Filter Masonry</a></li>
-                  <li><a className="dropdown-item" href="gallery-history.html">Gallery History</a></li>
-                  <li><a className="dropdown-item" href="gallery-history2.html">Gallery History 2</a></li>
-                  <li><a className="dropdown-item" href="gallery-single.html">Gallery Single</a></li>
-                  <li><a className="dropdown-item" href="gallery-timeline.html">Gallery Timeline </a></li>
-                  <li><a className="dropdown-item" href="gallery-timeline2.html">Gallery Timeline 2</a></li>
-                </ul>
+              
               </li> 
               <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="#" id="sub-nav7" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a className="nav-link" href="#" id="sub-nav7" data-toggle="dropdown"  aria-expanded="false">
                   Contact Us
                 </a>
-                <ul className="dropdown-menu" aria-labelledby="sub-nav7">
-                  <li><a className="dropdown-item" href="contactus1.html">Contact Us 1</a></li>
-                  <li><a className="dropdown-item" href="contactus2.html">Contact Us 2</a></li>
-                  <li><a className="dropdown-item" href="contactus3.html">Contact Us 3</a></li> 
-                </ul>
-              </li>  
+              </li> 
+
+              {/* buttons */}
             </ul> 
           </div>
         </nav>
       </div>
-      <div className="col-12 col-md-2 col-lg-3 pr-md-0 icons-header-mobile">
-        <div className="fables-header-icons">
-          <div className="dropdown"> 
-            <a href="#_" className="fables-third-text-color dropdown-toggle right px-3 px-md-2 px-lg-4 fables-second-hover-color top-header-link max-line-height position-relative" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <span className="fables-iconcart-icon font-20" />
-              <span className="fables-cart-number fables-second-background-color text-center">3</span>
-            </a>
-            <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <div className="p-3 cart-block">
-                <p className="fables-second-text-color semi-font mb-4 font-17">(2) Items in my cart</p>
-                <div className="row mx-0 mb-3">
-                  <div className="col-4 p-0">
-                    <a href="#"><img src="assets/custom/images/sml1.jpg" alt className="w-100" /></a>
-                  </div>
-                  <div className="col-8">
-                    <h2><a href="#" className="fables-main-text-color font-13 d-block fables-main-hover-color">LUIS LEATHER DRIVING</a></h2>
-                    <p className="fables-second-text-color font-weight-bold">$ 100.00</p>
-                    <p className="fables-forth-text-color">QTY : 1</p>
-                  </div>
-                </div>
-                <div className="row mx-0 mb-3">
-                  <div className="col-4 p-0">
-                    <a href="#"><img src="assets/custom/images/sml1.jpg" alt className="w-100" /></a>
-                  </div>
-                  <div className="col-8">
-                    <h2><a href="#" className="fables-main-text-color font-13 d-block fables-main-hover-color">LUIS LEATHER DRIVING</a></h2>
-                    <p className="fables-second-text-color font-weight-bold">$ 100.00</p>
-                    <p className="fables-forth-text-color">QTY : 1</p>
-                  </div>
-                </div>
-                <span className="font-16 semi-font fables-main-text-color">TOTAL</span>
-                <span className="font-14 semi-font fables-second-text-color float-right">$200.00</span>
-                <hr />
-                <div className="text-center">
-                  <a href="#" className="fables-second-background-color fables-btn-rounded  text-center white-color py-2 px-3 font-14 bg-hover-transparent border fables-second-border-color fables-second-hover-color">View my cart</a> 
-                  <a href="#" className="fables-second-text-color border fables-second-border-color fables-btn-rounded text-center white-color p-2 px-4 font-14 fables-second-hover-background-color">Checkout</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <a href="#" className="open-search fables-third-text-color right  top-header-link px-3 px-md-2 px-lg-4 fables-second-hover-color border-0 max-line-height">
-            <span className="fables-iconsearch-icon" />
-          </a>
-          <a href="signin.html" className="fables-third-text-color fables-second-hover-color font-13 top-header-link px-3 px-md-2 px-lg-4 max-line-height"><span className="fables-iconuser" /></a>
+
+
+      <div className="col-5 col-md-2 pr-md-0 icons-header-mobile">
+        <div className="fables-header-icons pt-lg-4 text-right">
+        <a href="#" className="btn fables-second-border-color white-color rounded-0 px-md-4 py-2 fables-second-hover-background-color">S'authentifier</a> 
         </div>
       </div>
+      <a href="#" className="open-search fables-third-text-color fables-mega-menu-btn px-4  fables-second-hover-color">
+            <span className="fables-iconsearch-icon" />
+            
+          </a>
+ 
     </div>
   </div>
-</div>
+</div> 
+{/* /End Fables Navigation */}
+
+    
+{/* Start Header */}
+
+{/* /End Header */}
 
 
-<div className="fables-header fables-after-overlay overlay-lighter bg-rules" style={{backgroundImage: 'url(assets/custom/images/header.jpg)'}}>
+
+<div className="fables-header fables-after-overlay overlay-lighter bg-rules" style={{backgroundImage: 'url(assets/custom/images/Hero.jpg)'}}>
   <div className="container overflow-hidden">  
     <div className="owl-carousel owl-theme default-carousel fables-sqr-nav dots-0 wow fadeInUpBig" data-wow-duration="2s">
       <div>
@@ -665,7 +496,7 @@ const HomePage=()=> {
         </div>
         <div className="my-3">
           <h4 className="font-16 semi-font"><span className="fables-iconphone fables-second-text-color pr-2 font-20 mt-1 d-inline-block" /> Call Now </h4>
-          <p className="font-14 fables-fifth-text-color mt-2 ml-4">+333 111 111 000</p>
+          <p className="font-14 fables-fifth-text-color mt-2 ml-4">+216 28 315 166</p>
         </div>
         <div className="my-3">
           <h4 className="font-16 semi-font"><span className="fables-iconemail fables-second-text-color pr-2 font-20 mt-1 d-inline-block" /> Mail </h4>
